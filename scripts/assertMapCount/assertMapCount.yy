@@ -1,8 +1,8 @@
 {
-    "id": "3cbbec8b-b8dc-4c7b-8264-48a1054ce174",
+    "id": "c23aa65d-5d12-4f57-bbdf-8a9ffab778eb",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ds_count",
+    "name": "assertMapCount",
     "IsCompatibility": false,
     "IsDnD": false
 }

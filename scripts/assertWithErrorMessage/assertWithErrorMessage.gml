@@ -7,7 +7,8 @@
 var value = argument[0]
 
 if (!is_bool(value) || !value) {
-	var errorMessage = string_fill("Error: %% \n Passed values: ", "%%", string(argument[1]))
+	var customMessage = string(argument[1])
+	var errorMessage = string_fill("Error: %% \n    Tested values: ", "%%", customMessage)
 
 	ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
 	var inputs = array_trim(ARGUMENT_ARRAY, 2, 0)
