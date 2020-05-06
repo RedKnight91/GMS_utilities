@@ -1,6 +1,9 @@
 ///@param stack
+///@param expected
 
 var stack = argument0
+var expected = argument1
 
 var condition = stack_exists(stack)
-assertWithErrorMessage(condition, "Stack does not exist", stack)
+var result = (condition == expected)
+assertWithErrorMessage(result, "Stack " + getExistenceMessage(condition), stack)

@@ -1,6 +1,9 @@
 ///@param instance
+///@param expected
 
 var instance = argument0
+var expected = argument1
 
 var condition = instance_exists(instance)
-assertWithErrorMessage(condition, "Instance does not exist", instance)
+var result = (condition == expected)
+assertWithErrorMessage(result, "Instance " + getExistenceMessage(condition), instance)

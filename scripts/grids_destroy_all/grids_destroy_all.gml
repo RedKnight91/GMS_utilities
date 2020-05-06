@@ -1,0 +1,1 @@
+ds_destroy_all(ds_type_grid)

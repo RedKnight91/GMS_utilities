@@ -5,6 +5,7 @@
     "name": "1cf7f5a7-d4ef-4b6f-adb5-4488bfde4368",
     "children": [
         "088e6d49-ab92-499b-bcd4-405c790b3992",
+        "3f786b1c-cad1-4370-958f-73848990b7f2",
         "22eb6f32-021a-48b3-80b8-7880bcd48c1d",
         "f0786c20-1c77-43cd-9065-eb050d62d5ea",
         "2b9bf578-b1e2-4ae1-9a78-af7570dd4097",
@@ -16,7 +17,12 @@
         "e4db7ecf-eeab-43cc-946b-da1109f0d657",
         "15553a43-4b54-4a7f-bbfc-2315c26617af",
         "1898b56f-1d5a-4a40-b21c-f3037bb3335c",
-        "1d5bf191-7ae9-4b28-a082-4305df12aac8"
+        "1d5bf191-7ae9-4b28-a082-4305df12aac8",
+        "ae05153b-0f2c-460f-ad86-543a43272159",
+        "cd11ef2c-7e9f-4b14-8258-98189da5cc56",
+        "cd4bf98a-26ca-41e6-b91d-4a0959cf0ac7",
+        "a5292d0a-b347-45d3-9510-df209a9d5b57",
+        "d85bf69d-32fa-437e-adef-d0816097f132"
     ],
     "filterType": "GMScript",
     "folderName": "Map",

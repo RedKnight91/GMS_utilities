@@ -1,6 +1,9 @@
 ///@param surface
+///@param expected
 
 var surface = argument0
+var expected = argument1
 
 var condition = surface_exists(surface)
-assertWithErrorMessage(condition, "Surface does not exist", surface)
+var result = (condition == expected)
+assertWithErrorMessage(result, "Surface " + getExistenceMessage(condition), surface)

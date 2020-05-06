@@ -1,6 +1,9 @@
 ///@param priority
+///@param expected
 
 var priority = argument0
+var expected = argument1
 
 var condition = priority_exists(priority)
-assertWithErrorMessage(condition, "Priority queue does not exist", priority)
+var result = (condition == expected)
+assertWithErrorMessage(result, "Priority " + getExistenceMessage(condition), priority)
