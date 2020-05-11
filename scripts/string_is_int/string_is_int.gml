@@ -2,8 +2,7 @@
 
 var str = argument0
 
-if (!is_string(str))
-	show_error("Error: Argument is not a valid string", true)
+assert_string(str)
 
 //Check if string is signed integer
 var digitN		= string_length(string_digits(str))

@@ -4,7 +4,7 @@
 var index = argument0
 var type = argument1
 
-assertDsType(type)
+assert_ds_type(type)
 
 switch(type) {
 	case ds_type_list:		ds_list_destroy(index)

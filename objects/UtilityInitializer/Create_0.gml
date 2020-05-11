@@ -15,3 +15,7 @@
 		instance_destroy(id, false)\
 		exit\
 	}
+	
+//Used to solve buggy is_bool() behavior
+#macro True bool(true)
+#macro False bool(false)

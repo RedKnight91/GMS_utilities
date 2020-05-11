@@ -8,7 +8,7 @@ var included = false
 if (!map_exists(map))
 	show_error("Error: Searching a non-existent map. Map argument: " + string(map), true)
 	
-var key = ds_map_find_first(map)
+var key = map_first(map)
 while (!is_undefined(key)) {
 	var value = map[? key]
 	if (searchValue == value) {
@@ -16,7 +16,7 @@ while (!is_undefined(key)) {
 		break
 	}
 	
-	key = ds_map_find_next(map, key)
+	key = map_next(map, key)
 }
 
 return included

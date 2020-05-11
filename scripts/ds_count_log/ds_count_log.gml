@@ -13,7 +13,7 @@ var log = "Found: "
 //Get all required ds types to look for
 for (var i = 0; i < argument_count; i++) {
 	var dsType = argument[i]
-	assertDsType(dsType)
+	assert_ds_type(dsType)
 
 	var dsName = dsNames[dsType]
 	var count = ds_count(dsType)

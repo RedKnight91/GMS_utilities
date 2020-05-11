@@ -6,6 +6,6 @@ var script = scriptID
 if (is_string(scriptID))
 	script = asset_get_index(scriptID)
 
-assertScriptIndexExists(script, true)
+assert_script_index_exists(script, true)
 
 return script

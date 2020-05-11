@@ -8,12 +8,9 @@
         "45df2f70-6c10-4f6f-b64e-d49b4963c270",
         "d2dd12bc-d3b7-4e02-9ef0-b1a75d87c069",
         "2f2f4536-0bd1-48a6-b253-0ec499a4bf6c",
-        "19b0507c-dee4-4b2a-9530-41bd480dbb0e",
-        "03f4226a-b389-4dad-af50-000bdd45274a",
-        "ea292e2f-7403-4f5b-a3b4-ea52710142b1",
-        "f6fd61d9-2791-439f-8d77-be35206a752e",
-        "024a81e5-a315-484a-bdaa-3f19284d248c",
-        "7588d34f-b7e2-475e-9465-1975e8ea6235"
+        "d9477e5f-c28a-48a7-97c9-d9329749bb3d",
+        "147caf1f-f51a-4c01-9400-d3e4edc3c2ac",
+        "2890334d-0202-434d-9d00-974dee20eb38"
     ],
     "filterType": "GMScript",
     "folderName": "Math",

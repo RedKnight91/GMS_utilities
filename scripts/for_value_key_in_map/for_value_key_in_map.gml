@@ -15,14 +15,14 @@ ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
 var args = ARGUMENT_ARRAY
 //Leaving two extra params at array start to replace later
 
-var key = ds_map_find_first(map)
+var key = map_first(map)
 
 while (map_exists(map) && !is_undefined(key)) {
 	var value = map[? key]
 	args[0] = value
 	args[1] = key
 
-	key = ds_map_find_next(map, key)	
+	key = map_next(map, key)	
 	
 	execute_arg_array(processor, args)
 }

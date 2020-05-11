@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "eac3aa6c-3ae6-4229-8728-f2570bdb98e6",
     "children": [
+        "10e14250-305a-45cc-8125-6142b4e479bf",
         "b95ca20e-5c10-43e8-aeac-189e6d1046ef",
         "a8347358-712a-4dd2-a3f3-59bd7516f18f",
         "535821bc-1335-465a-98ef-8434dcbdf949",
@@ -12,7 +13,7 @@
         "c1c1fbe5-f81a-4f0d-b4d3-500865ac0f69"
     ],
     "filterType": "GMScript",
-    "folderName": "DS empty",
+    "folderName": "DS emptiness",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
