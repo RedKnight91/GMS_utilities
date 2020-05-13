@@ -1,0 +1,1 @@
+print_array(get_callstack_formatted())

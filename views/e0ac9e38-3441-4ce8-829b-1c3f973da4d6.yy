@@ -12,7 +12,9 @@
         "3f786b1c-cad1-4370-958f-73848990b7f2",
         "35ffe2e8-b22d-4786-beb4-77efccac8d80",
         "557df491-8fda-4e59-b202-3add355baaed",
-        "07cd5e84-3c1d-4cbc-ba6f-0ab143992aff"
+        "07cd5e84-3c1d-4cbc-ba6f-0ab143992aff",
+        "74312cdb-c6e5-4fce-90d9-be5e2da36fa5",
+        "93c1e9eb-05a2-4a0c-b22f-4f4efb1bddf7"
     ],
     "filterType": "GMScript",
     "folderName": "Print",
