@@ -5,10 +5,10 @@
 ///@param [height]
 ///@param [alpha]
 
-var alpha	= (argument_count == 1) ? argument[0] : 0
+var alpha	= (ARG_N == 1) ? argument[0] : 0
 
-var width	= (argument_count == 2) ? argument[0] : room_width
-var height	= (argument_count == 2) ? argument[1] : room_height
+var width	= (ARG_N == 2) ? argument[0] : room_width
+var height	= (ARG_N == 2) ? argument[1] : room_height
 
 
 var surface = surface_create(width, height)

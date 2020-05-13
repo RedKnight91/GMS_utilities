@@ -8,7 +8,7 @@ var _max = argument2
 var map = ds_map_create()
 
 for (var i = 0; i < size; ++i) {
-	var key = uuid_generate()
+	var key = uuidv4_create()
 	map[? key] = irandom_range(_min, _max)
 }
 

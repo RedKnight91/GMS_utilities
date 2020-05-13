@@ -11,7 +11,7 @@ var surface = argument[0]
 if (surface_exists(surface))
 	return surface
 
-switch(argument_count) {
+switch(ARG_N) {
 	case 3:		return surface_init(argument[1], argument[2])
 	case 2:		return surface_init(argument[1])
 	default:	return surface_init()

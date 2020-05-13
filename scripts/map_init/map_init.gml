@@ -7,7 +7,7 @@
 var map = ds_map_create()
 ds_map_clear(map)
 
-for (var i = 0; i < argument_count; i += 2)
+for (var i = 0; i < ARG_N; i += 2)
 	ds_map_add(map, argument[i], argument[i + 1])
 
 return map

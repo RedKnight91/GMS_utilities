@@ -2,7 +2,7 @@
 ///@param *indent
 
 var stack = argument[0]
-var indent = (argument_count == 2) ? argument[1] : 2
+var indent = (ARG_N == 2) ? argument[1] : 2
 var size = ds_stack_size(stack)
 
 var copy = ds_stack_create()

@@ -10,7 +10,7 @@ var left	= argument[1]
 var top		= argument[2]
 var right	= argument[3]
 var bottom	= argument[4]
-var emptyValue	= (argument_count == 6) ? argument[5] : undefined
+var emptyValue	= (ARG_N == 6) ? argument[5] : undefined
 
 assert_greater_than(left, -1, true)
 assert_greater_than(top, -1, true)

@@ -11,8 +11,8 @@ var processor = script_get_index(argument[1])
 if (!map_exists(map))
 	exit
 
-ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
-var args = array_trim(ARGUMENT_ARRAY, 1, 0)
+ARG_MAKE_ARRAY = argument[ARG_INDEX]
+var args = array_trim(ARG_ARRAY, 1, 0)
 //Leaving one extra param at array start to replace later
 
 var key = map_first(map)

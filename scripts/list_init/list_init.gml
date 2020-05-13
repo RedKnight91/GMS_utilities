@@ -5,7 +5,7 @@
 var list = ds_list_create()
 ds_list_clear(list)
 
-for (var i = 0; i < argument_count; i++)
+for (var i = 0; i < ARG_N; i++)
 	ds_list_add(list, argument[i])
 
 return list

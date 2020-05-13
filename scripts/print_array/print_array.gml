@@ -2,7 +2,7 @@
 ///@param *indent
 
 var array = argument[0]
-var indent = (argument_count == 2) ? argument[1] : 2
+var indent = (ARG_N == 2) ? argument[1] : 2
 var size = array_length_1d(array)
 
 print("[")

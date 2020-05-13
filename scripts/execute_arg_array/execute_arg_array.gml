@@ -5,57 +5,23 @@ var script = script_get_index(argument0)
 var args = argument1
 
 switch(array_length_1d(args)) {
-	case 0:
-		script_execute(script)
-		break
-	case 1:
-		script_execute(script, args[0])
-		break
-	case 2:
-		script_execute(script, args[0], args[1])
-		break
-	case 3:
-		script_execute(script, args[0], args[1], args[2])
-		break
-	case 4:
-		script_execute(script, args[0], args[1], args[2], args[3])
-		break
-	case 5:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4])
-		break
-	case 6:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5])
-		break
-	case 7:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6])
-		break
-	case 8:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7])
-		break
-	case 9:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8])
-		break
-	case 10:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9])
-		break
-	case 11:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10])
-		break
-	case 12:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11])
-		break
-	case 13:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12])
-		break
-	case 14:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13])
-		break
-	case 15:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13], args[14])
-		break
-	case 16:
-		script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13], args[14], args[15])
-		break
+	case 0:		return script_execute(script)
+	case 1:		return script_execute(script, args[0])
+	case 2:		return script_execute(script, args[0], args[1])
+	case 3:		return script_execute(script, args[0], args[1], args[2])
+	case 4:		return script_execute(script, args[0], args[1], args[2], args[3])
+	case 5:		return script_execute(script, args[0], args[1], args[2], args[3], args[4])
+	case 6:		return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5])
+	case 7:		return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6])
+	case 8:		return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7])
+	case 9:		return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8])
+	case 10:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9])
+	case 11:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10])
+	case 12:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11])
+	case 13:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12])
+	case 14:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13])
+	case 15:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13], args[14])
+	case 16:	return script_execute(script, args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11], args[12], args[13], args[14], args[15])
 	default:
 		show_error("Error: Too many args provided to scriptExecuteArgsArray", true)
 }

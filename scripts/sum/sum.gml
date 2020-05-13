@@ -4,7 +4,7 @@
 
 var total = 0
 
-for (var i = 0; i < argument_count; i++)
+for (var i = 0; i < ARG_N; i++)
 	total += argument[i]
 
 return total

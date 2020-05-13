@@ -13,8 +13,8 @@ var processor = script_get_index(argument[2])
 if (!grid_exists(grid))
 	exit
 
-ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
-var args = array_trim(ARGUMENT_ARRAY, 2, 0)
+ARG_MAKE_ARRAY = argument[ARG_INDEX]
+var args = array_trim(ARG_ARRAY, 2, 0)
 //Leaving one extra param at array start to replace later
 
 for (var row = 0; grid_exists(grid) && row < ds_grid_height(grid); row++) {

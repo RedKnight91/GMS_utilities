@@ -8,7 +8,7 @@
 var str = ""
 var i = 0
 
-repeat(argument_count - 1)
+repeat(ARG_N - 1)
 	str += string(argument[i++]) + " "
 	
 str += string(argument[i])

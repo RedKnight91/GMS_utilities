@@ -11,7 +11,7 @@ var dsNames = ["none", "ds_maps", "ds_lists", "ds_stacks", "ds_queues", "ds_grid
 var log = "Found: "
 
 //Get all required ds types to look for
-for (var i = 0; i < argument_count; i++) {
+for (var i = 0; i < ARG_N; i++) {
 	var dsType = argument[i]
 	assert_ds_type(dsType)
 

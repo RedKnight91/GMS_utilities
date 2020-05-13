@@ -3,13 +3,13 @@
 ///@param arg1
 ///@param ...
 
-ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
+ARG_MAKE_ARRAY = argument[ARG_INDEX]
 
-var argN = argument_count
+var argN = ARG_N
 if (argN == 0)
 	show_error("Error: No script argument provided", true)
 
-var script = ARGUMENT_ARRAY[0]
-var args = array_trim(ARGUMENT_ARRAY, 1, 0)
+var script = ARG_ARRAY[0]
+var args = array_trim(ARG_ARRAY, 1, 0)
 
 execute_arg_array(script, args)

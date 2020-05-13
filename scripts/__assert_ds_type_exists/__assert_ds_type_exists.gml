@@ -8,4 +8,4 @@ var expected = argument2
 
 var condition = ds_type_exists(index, ds_type)
 var result = (condition == expected)
-assert_with_error_message(result, "ds_type " + __get_existence_message(condition), ds_type)
+assert_with_error_message(result, ds_type_name(ds_type) + " " + __get_existence_message(condition), "Index: ", index, "type: ", ds_type)

@@ -4,7 +4,7 @@
 
 var stack = ds_stack_create()
 
-for (var i = 0; i < argument_count; i++)
+for (var i = 0; i < ARG_N; i++)
 	ds_stack_push(stack, argument[i])
 
 return stack

@@ -2,7 +2,7 @@
 ///@param *indent
 
 var grid = argument[0]
-var indent = (argument_count == 2) ? argument[1] : 2
+var indent = (ARG_N == 2) ? argument[1] : 2
 var width = ds_grid_width(grid)
 var height = ds_grid_height(grid)
 

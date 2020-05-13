@@ -9,9 +9,7 @@
         "485790bd-ff6a-4184-9d3c-2231303f02e0",
         "420f8069-6bbe-41f1-8ad9-c6e4010b2f42",
         "c74fe06a-b252-4f72-884b-dbedfcd6ae46",
-        "50da59e3-b9b2-49e0-a026-8bccaffb32b1",
-        "151082ed-e67d-4adb-adc0-ebd6ff0b411b",
-        "9e70aa94-f5af-4819-9d2a-6617c81f43ec"
+        "50da59e3-b9b2-49e0-a026-8bccaffb32b1"
     ],
     "filterType": "GMScript",
     "folderName": "Existence",

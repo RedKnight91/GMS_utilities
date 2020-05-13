@@ -1,14 +1,16 @@
-//Use as follows:
-//ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
-//var args = ARGUMENT_ARRAY
+#macro ARG_N argument_count
 
-#macro ARGUMENT_ARRAY __argumentArray
-#macro ARGUMENT_INDEX __argumentIndex
-#macro ARGUMENT_MAKE_ARRAY\
-	var __argumentArray = array_create(argument_count)\
-	for (var __argumentIndex = 0; __argumentIndex < argument_count; __argumentIndex++)\
-		__argumentArray[__argumentIndex]
+#macro ARG_ARRAY args__
+#macro ARG_INDEX i__
+#macro ARG_MAKE_ARRAY\
+	var args__ = array_create(ARG_N)\
+	for (var i__ = 0; i__ < ARG_N; ++i__)\
+		args__[i__]
 
+//Usage:
+//ARG_MAKE_ARRAY = argument[ARG_INDEX]
+//var args = ARG_ARRAY
+		
 
 #macro MAKE_SINGLETON\
 	if (instance_number(object_index) > 1){\
@@ -16,6 +18,13 @@
 		exit\
 	}
 	
+	
 //Used to solve buggy is_bool() behavior
 #macro True bool(true)
 #macro False bool(false)
+
+
+//Used to silence warnings
+is_bool(True)
+is_bool(False)
+MAKE_SINGLETON

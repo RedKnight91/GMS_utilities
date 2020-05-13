@@ -14,7 +14,7 @@
 var str = argument[0]
 var template = argument[1]
 
-for (var i = 2; i < argument_count; i++)
+for (var i = 2; i < ARG_N; i++)
 	str = string_replace(str, template, string(argument[i]))
 	
 return str

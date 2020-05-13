@@ -2,7 +2,7 @@
 ///@param list
 ///@param ...
 
-for (var i = 0; i < argument_count; i++) {
+for (var i = 0; i < ARG_N; i++) {
 	var list = argument[i]
 	list_destroy(list)
 }

@@ -4,7 +4,7 @@
 
 var instance = argument[0]
 var object = argument[1]
-var checkDescendants = (argument_count == 3) ? argument[2] : false
+var checkDescendants = (ARG_N == 3) ? argument[2] : false
 
 var match = false
 

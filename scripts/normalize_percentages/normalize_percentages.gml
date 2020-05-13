@@ -2,9 +2,9 @@
 ///@param percentage
 ///@param ...
 
-ARGUMENT_MAKE_ARRAY = argument[ARGUMENT_INDEX]
+ARG_MAKE_ARRAY = argument[ARG_INDEX]
 
-var percentages = ARGUMENT_ARRAY
+var percentages = ARG_ARRAY
 var total = sum_array(percentages)
 
 for (var i = 0; i < array_length_1d(percentages); i++)
