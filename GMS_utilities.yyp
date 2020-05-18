@@ -1175,6 +1175,14 @@
             }
         },
         {
+            "Key": "650d28f8-26c3-40e7-abe9-fce98dc57f44",
+            "Value": {
+                "id": "dbdd1762-d42d-4096-bbc2-581bbcbfc3b1",
+                "resourcePath": "scripts\\approach\\approach.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "663de483-f6cb-4cca-b4d0-13bece0d8f87",
             "Value": {
                 "id": "e41ac955-cc0d-49c9-a7c8-ea634d4af7b3",
@@ -1767,6 +1775,14 @@
             }
         },
         {
+            "Key": "9d6ce80a-7189-4e48-8983-50ab98b1a949",
+            "Value": {
+                "id": "6797ec6f-08f6-4a66-b69e-6cdaec14ffbb",
+                "resourcePath": "views\\9d6ce80a-7189-4e48-8983-50ab98b1a949.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9d972fe1-a8dd-4e76-935b-85d1a83ad53a",
             "Value": {
                 "id": "c95a82c1-58e8-4850-9563-2dab5ab89e3d",
@@ -2084,6 +2100,14 @@
                 "id": "e19c8f2f-0e95-4257-bd16-3c6df846b42c",
                 "resourcePath": "views\\bafd5970-17e8-440f-8e7e-5b59bce969f8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "be149dba-45e5-47d5-af77-39ab566f47af",
+            "Value": {
+                "id": "0b7ea583-4d12-4f57-aa1e-6177a524f2d7",
+                "resourcePath": "scripts\\grid_set_column\\grid_set_column.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2655,6 +2679,14 @@
             }
         },
         {
+            "Key": "f347cd4a-bbec-4174-a38e-f1216752bf01",
+            "Value": {
+                "id": "9c661ba3-36e6-4b89-b3e7-f8bd5c9920e1",
+                "resourcePath": "scripts\\grid_set_row\\grid_set_row.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f379bd41-8fc0-4dbb-8a2d-dbd3c8000600",
             "Value": {
                 "id": "5625f7b1-4327-411b-9e81-11637c242794",
@@ -2824,6 +2856,7 @@
         "5bdb93a5-28a2-4bbd-8685-1e31c7c2deea",
         "8a5454b4-7e57-4704-bd94-991d346e6ed7",
         "afe55357-41cc-4621-9ee6-3e1fade46bfc",
+        "650d28f8-26c3-40e7-abe9-fce98dc57f44",
         "3c659258-2d13-4eb4-984b-f8f83fb124db",
         "390fef71-584f-4c67-a2e6-7d7e6730cc99",
         "fd98067e-9006-47f2-bc99-84d4af7f2873",
@@ -2910,6 +2943,8 @@
         "eb5e23e3-dd24-4d05-af68-0af6aff868fe",
         "4875052a-9cb9-4850-b35d-004dea78ec24",
         "e16c0598-9c95-44b9-9d49-d31b8a132b08",
+        "be149dba-45e5-47d5-af77-39ab566f47af",
+        "f347cd4a-bbec-4174-a38e-f1216752bf01",
         "504dfda9-4e78-4640-9849-0f48427dbbca",
         "689fddd5-4f15-4824-8b62-f6000b23bc82",
         "af4b31f6-405d-40b5-8fd0-1d9f9d953263",
