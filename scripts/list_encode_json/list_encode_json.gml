@@ -1,8 +1,7 @@
 var list = argument0
 var json = ""
 
-if (!list_exists(list))
-	show_error("Error: Encoding a non-existent list. List argument: " + string(list), true)
+assert_list_exists(list, true, "Trying to encode a non-existent list")
 
 var tempMap = ds_map_create()
 ds_map_add_list(tempMap, "default", list)

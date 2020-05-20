@@ -1,11 +1,10 @@
 ///@param list
 ///@param value
 
-var list = argument0
-var searchValue = argument1
+var list		= argument0
+var searchValue	= argument1
 
-if (!list_exists(list))
-	show_error("Error: Searching a non-existent list. List argument: " + string(list), true)
+assert_list_exists(list, true, "Searching a non-existent list")
 
 var index = ds_list_find_index(list, searchValue)
 var included = (index != -1)

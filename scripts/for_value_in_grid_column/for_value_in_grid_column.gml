@@ -2,9 +2,9 @@
 ///@param	ds_grid
 ///@param	col
 ///@param	processorScript
-///@param	[param1]
-///@param	[param2]
-///@param	[...]
+///@param	*arg
+///@param	*arg
+///@param	*...
 
 var grid = argument[0]
 var col = argument[1]

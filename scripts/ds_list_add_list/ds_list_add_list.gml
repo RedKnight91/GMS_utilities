@@ -4,8 +4,7 @@
 var parentList = argument0
 var list = argument1
 
-if (!list_exists(list))
-	show_error("Error: Trying to add an unexisting list to a list. List argument: " + string(list), true)
+assert_list_exists(list, true, "Trying to add a non-existent list to a list")
 
 ds_list_add(parentList, list)
 var listPos = ds_list_size(parentList) - 1

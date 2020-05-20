@@ -11,8 +11,11 @@ ds_priority_copy(copy, priority)
 print("[")
 
 repeat(size) {
-	var value = string(ds_priority_delete_max(copy))
-	print(string_repeat(" ", indent) + value + ",")
+	var value = ds_priority_delete_max(copy)
+	var index = string(ds_priority_find_priority(priority, value))
+	value = string(value)
+	
+	print(string_repeat(" ", indent) + index + ": " + value + ",")
 }
 
 print("]")

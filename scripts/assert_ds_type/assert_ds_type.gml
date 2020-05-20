@@ -1,8 +1,10 @@
 ///@param ds_type
+///@param *message
 
-var ds_type = argument0
+var ds_type = argument[0]
+var message = (ARG_N > 1) ? argument[1] : ""
 
-var condition = false
+var result = false
 
 switch(ds_type) {
 	case ds_type_list:
@@ -11,7 +13,8 @@ switch(ds_type) {
 	case ds_type_stack:
 	case ds_type_queue:
 	case ds_type_priority:
-		var condition = true
+		var result = true
 }
 
-assert_with_error_message(condition, "Not a ds_type", ds_type)
+var error = "Not a ds_type"
+assert_with_error_message(result, message, error, ds_type)

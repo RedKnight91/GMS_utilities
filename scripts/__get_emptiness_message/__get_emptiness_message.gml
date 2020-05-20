@@ -1,6 +1,6 @@
-///@param condition
+///@param empty
 
-var condition = argument0
-var message = (condition) ? "is empty" : "is not empty"
+var empty = argument0
+var message = (empty) ? "is empty" : "is not empty"
 
 return message

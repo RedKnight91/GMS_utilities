@@ -1,9 +1,9 @@
 ///@desc	Processes each entry of a ds_grid with a given script
 ///@param	ds_grid
 ///@param	processorScript
-///@param	[param1]
-///@param	[param2]
-///@param	[...]
+///@param	*arg
+///@param	*arg
+///@param	*...
 
 var grid = argument[0]
 var processor = script_get_index(argument[1])

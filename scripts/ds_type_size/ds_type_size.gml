@@ -13,5 +13,5 @@ switch (ds_type) {
 	case ds_type_queue:		return ds_queue_size(index)
 	case ds_type_priority:	return ds_priority_size(index)
 	case ds_type_grid:
-		show_error("Error: Can't get ds_grid size", true)
+		show_error("Error: ds_grid has no size attribute", true)
 }

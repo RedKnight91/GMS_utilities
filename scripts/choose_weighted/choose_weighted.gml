@@ -5,6 +5,7 @@
 var args = argument0
 var argsN = array_length_1d(args)
 
+//TODO assert_even, assert_odd
 if (argsN % 2 != 0)
 	show_error("Error: Odd number of arguments provided.", true)
 

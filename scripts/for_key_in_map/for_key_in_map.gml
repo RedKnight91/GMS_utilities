@@ -1,9 +1,9 @@
 ///@desc	Processes each entry of a ds_map with a given script
 ///@param	ds_map
 ///@param	processorScript
-///@param	[param1]
-///@param	[param2]
-///@param	[param...]
+///@param	*arg
+///@param	*arg
+///@param	*...
 
 var map = argument[0]
 var processor = script_get_index(argument[1])

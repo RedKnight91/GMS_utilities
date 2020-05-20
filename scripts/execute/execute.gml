@@ -5,9 +5,7 @@
 
 ARG_MAKE_ARRAY = argument[ARG_INDEX]
 
-var argN = ARG_N
-if (argN == 0)
-	show_error("Error: No script argument provided", true)
+assert_greater_than(ARG_N, 0, true, "No script argument provided")
 
 var script = ARG_ARRAY[0]
 var args = array_trim(ARG_ARRAY, 1, 0)

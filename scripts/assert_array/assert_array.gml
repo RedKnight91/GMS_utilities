@@ -1,6 +1,10 @@
 ///@param array
+///@param *message
 
-var array = argument0
+var array = argument[0]
+var message = (ARG_N > 1) ? argument[1] : ""
 
-var condition = is_array(array)
-assert_with_error_message(condition, "Not an array", array)
+var result = is_array(array)
+
+var error = "Not an array"
+assert_with_error_message(result, message, error, array)

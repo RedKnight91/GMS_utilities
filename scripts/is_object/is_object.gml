@@ -1,5 +1,5 @@
 ///@param object
-///@param [checkDescendant]
+///@param *checkDescendant
 
 var object = argument[0]
 var checkDescendant = (ARG_N == 2) ? argument[1] : false

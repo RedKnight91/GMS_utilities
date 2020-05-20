@@ -13,7 +13,12 @@
         "da1dea73-eca7-4bc5-b1ce-86dfcbdfca36",
         "78733fd7-ec44-4434-b8e8-8a257828164d",
         "ab95e9b7-1d42-429f-b9d4-cc68b0b408f1",
-        "7252b302-539a-4e14-9c54-4c0d82e32499"
+        "7252b302-539a-4e14-9c54-4c0d82e32499",
+        "b646f24e-b268-4d7f-9a59-0f363aa89314",
+        "9386512f-1a43-458e-bde1-fa9fff985bbd",
+        "4d3aadd5-4326-486b-9897-95a603b74a06",
+        "92542381-be55-4068-b432-57e9b96481af",
+        "66bfbf8b-994e-42c4-9292-872a75ed4a90"
     ],
     "filterType": "GMScript",
     "folderName": "Grid",

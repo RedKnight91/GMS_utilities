@@ -1,9 +1,9 @@
 ///@func	surface_init(width, height)
 ///@init	creates a surface and clears it
 ///
-///@param [width]
-///@param [height]
-///@param [alpha]
+///@param *width
+///@param *height
+///@param *alpha
 
 var alpha	= (ARG_N == 1) ? argument[0] : 0
 

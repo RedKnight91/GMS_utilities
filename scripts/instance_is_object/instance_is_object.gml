@@ -1,6 +1,6 @@
 ///@param instance
 ///@param object
-///@param [checkDescendants]
+///@param *checkDescendants
 
 var instance = argument[0]
 var object = argument[1]

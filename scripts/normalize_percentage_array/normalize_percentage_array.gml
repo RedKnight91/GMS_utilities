@@ -1,4 +1,4 @@
-///@param [percentage]
+///@param [percentages]
 
 var percentages = argument0
 var percentageN = array_length_1d(percentages)

@@ -1,6 +1,10 @@
 ///@param string
+///@param *message
 
-var str = argument0
+var str		= argument[0]
+var message = (ARG_N > 1) ? argument[1] : ""
 
-var condition = is_string(str)
-assert_with_error_message(condition, "Not a string", str)
+var result = is_string(str)
+
+var error = "Not a string"
+assert_with_error_message(result, message, error, str)

@@ -1,6 +1,10 @@
 ///@param int
+///@param *message
 
-var int = argument0
+var int = argument[0]
+var message = (ARG_N > 1) ? argument[1] : ""
 
-var condition = is_int32(int) || is_int64(int)
-assert_with_error_message(condition, "Not an int", int)
+var result = is_int32(int) || is_int64(int)
+
+var error = "Not an int"
+assert_with_error_message(result, message, error, int)

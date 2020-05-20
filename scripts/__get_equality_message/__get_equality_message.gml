@@ -1,6 +1,6 @@
-///@param condition
+///@param equal
 
-var condition = argument0
-var message = (condition) ? "are equal" : "are not equal"
+var equal = argument0
+var message = (equal) ? "are equal" : "are not equal"
 
 return message

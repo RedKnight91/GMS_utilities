@@ -1,8 +1,8 @@
 ///@desc Creates an instance on a layer with varying sets of arguments
 ///
-///@param [x]
-///@param [y]
-///@param [layer]
+///@param *x
+///@param *y
+///@param *layer
 ///@param object_index
 
 switch (ARG_N) {

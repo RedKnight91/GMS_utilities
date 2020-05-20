@@ -1,6 +1,10 @@
 ///@param bool
+///@param *message
 
-var boolean = argument0
+var boolean = argument[0]
+var message = (ARG_N > 1) ? argument[1] : ""
 
-var condition = is_boolean(boolean)
-assert_with_error_message(condition, "Not a bool", boolean)
+var result = is_boolean(boolean)
+
+var error = "Not a bool"
+assert_with_error_message(result, message, error, boolean)
